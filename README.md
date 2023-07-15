@@ -76,9 +76,11 @@ from time import sleep
 
 k = HizlandirilmisPiKamera()
 k.veri_okumaya_basla()
+k.onizlemeyi_baslat()
+k.resize(640, 480)
 while True:
-	k.onizlemeyi_baslat()
-	k.resize(640, 480)
+	k.kareyi_goster()
+	
 
 ```
 ## Motor
@@ -130,7 +132,7 @@ while True:
 	motorlar.hiz(sagHiz, solHiz)
 ```
 
-En başta 2 motoru daha sonrasında sol motoru belirlenen hızda çalıştırır.
+Kumanda'nın sol joystick axis'lerinden veri alarak bu verileri motorr verisine çevirir ve motorlar kumanda verisine göre güçte gider
 
 ## Servo
 Servo sınıfı GPIO modu olarak BCM kullanır
