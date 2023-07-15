@@ -17,7 +17,7 @@ Oku()
 ```
 Arka planda aktif hale getirilen sensörün ölçtüğü mesafeyi geri verir.
 
-**Örnek Kullanım**
+**Ultrasonik Örnek Kullanım**
 ```python
 from time import sleep
 
@@ -34,7 +34,7 @@ while True:
 ```sensor``` nesnesini oluştururken kullandığımız ```Ultrasonik_S(20,21)```, nesenenin ultrasonik sensör olduğunu belirtir ve parantez içindeki kısım (constructor) ise ultrasonik sensörun hangi GPIO numaralı pine takılı olduğununu gösterir. Daha sonrasında ise ```OlcmeyeBasla()``` komutu ile arka planda aktif hale getirdiğimiz sensör ```whlie True``` loopu ile ölçtüğü mesafeyi 0.1 saniye aralıklarla ekrana basar.
 
 
-## HizlandirilmisPiKamera
+##HizlandirilmisPiKamera
 **Fonksiyonlar**
 
 ```python
@@ -67,7 +67,7 @@ Kamerayı kapatır.
 
 
 
-**Örnek Kullanım**
+**HizlandirilmisPiKamera Örnek Kullanım**
 ```python
 from time import sleep
 
@@ -98,7 +98,7 @@ solHiz()
 ktm()
 ```
 
-**Örnek Kullanım**
+**Değer Vererek Motor Döndürme**
 ```python
 from time import sleep
 
@@ -137,7 +137,7 @@ uyu()
 ```
 Tüm aktiviteyi durdurur.
 
-**Örnek Kullanım**
+**Açı Değeri Vererek Servo Döndürme**
 ```python
 
 ```
