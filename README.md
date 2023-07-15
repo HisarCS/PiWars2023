@@ -75,10 +75,11 @@ from time import sleep
 
 k = HizlandirilmisPiKamera()
 k.veri_okumaya_basla()
-k.onizlemeyi_baslat()
-sleep(7)
-k.onizlemeyi_durdur()
-k.kapat()
+while True:
+	k.onizlemeyi_baslat()
+	k.resize(640,480)
+
+
 
 ```
 ## Motor
