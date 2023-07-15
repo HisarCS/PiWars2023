@@ -55,15 +55,6 @@ class Kumanda:
 
 
 
-joystik = Kumanda()
-joystik.dinlemeyeBasla()
-
-while True:
-   
-    lx, ly = joystik.sol()
-    print("Sol joystik değerleri: ", lx, ly)
-    sleep(1)
-    
 
 
 
