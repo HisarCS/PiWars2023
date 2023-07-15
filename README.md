@@ -42,7 +42,7 @@ while True:
 veri_okumaya_basla()
 
 ```
-Ayrı bir thread olarak oluşturarak kamera ile veri okumaya başlar.
+Ayrı bir thread oluşturarak kamera ile veri okumaya başlar.
 
 
 ```python
@@ -69,7 +69,14 @@ Kamerayı kapatır.
 
 **Örnek Kullanım**
 ```python
+from time import sleep
 
+k = HizlandirilmisPiKamera()
+k.veri_okumaya_basla()
+k.onizlemeyi_baslat()
+sleep(7)
+k.onizlemeyi_durdur()
+k.kapat()
 
 ```
 ## Motor
@@ -87,6 +94,9 @@ sagHiz()
 solHiz()
 ```
 ```hiz``` fonksiyonu gibi Pololu-drv8835'in kütüphanesini kullanır. ```hiz``` fonksiyonundan farklı olarak bu iki fonksiyon sadece tek bir motora (sağ veya sol) hız değeri atanmasına olanak sunar.
+```python
+ktm()
+```
 
 **Örnek Kullanım**
 ```python
@@ -107,4 +117,21 @@ while True:
 
 En başta 2 motoru daha sonrasında sol motoru belirlenen hızda çalıştırır.
 
+## Servo
+**Fonksiyonlar**
+```python
+surekliDonme()
+```
+```python
+secilenAci()
+```
+```python
+aciAyarla(aci)
+```
+```python
+uyu()
+```
+**Örnek Kullanım**
+```python
 
+```
