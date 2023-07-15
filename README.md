@@ -116,6 +116,19 @@ while True:
     m.solHiz(-247)
     sleep(5)
 ```
+**Kumanda Verisiyle Motor Döndürme**
+```python
+motorlar = Motor()
+
+joystik = Kumanda()
+joystik.dinlemeyeBasla()
+
+while True:
+	lx, ly = joystik.sol()
+	sagHiz, solHiz = motorlar.ktm(lx, ly)
+
+	motorlar.hiz(sagHiz, solHiz)
+```
 
 En başta 2 motoru daha sonrasında sol motoru belirlenen hızda çalıştırır.
 
