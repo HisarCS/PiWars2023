@@ -1,4 +1,6 @@
 # PiWars2023
+Bu python kütüphanesi, PiWars Türkiye 2023 katılımcılarının HisarCS tarafınndan hazırlanan robot kitlerindeki yazılımı, sensörleri ve hareketli parçaları kullanmalarını kolaylaştırmak amacıyla yapılmıştır.
+
 ## Ultrasonik_S
 UltrasonikSensor sınıfı GPIO modu olarak BCM kullanır
 
