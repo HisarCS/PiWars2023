@@ -123,15 +123,19 @@ Servo sınıfı GPIO modu olarak BCM kullanır
 ```python
 surekliDonme()
 ```
+Servoyu sürekli dönmeye ayarlar.
 ```python
 secilenAci()
 ```
+Servoyu tek bir açıya dönmeye ayarlar.
 ```python
 aciAyarla(aci)
 ```
+İstenilen açı değerini belirtir.
 ```python
 uyu()
 ```
+Tüm aktiviteyi durdurur.
 **Örnek Kullanım**
 ```python
 
