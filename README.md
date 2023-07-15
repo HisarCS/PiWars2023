@@ -78,7 +78,7 @@ k = HizlandirilmisPiKamera()
 k.veri_okumaya_basla()
 while True:
 	k.onizlemeyi_baslat()
-	camera.resize(640, 480)
+	k.resize(640, 480)
 
 ```
 ## Motor
