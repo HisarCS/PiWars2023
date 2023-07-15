@@ -1,5 +1,6 @@
 # PiWars2023
 ## Ultrasonik_S
+UltrasonikSensor sınıfı GPIO modu olarak BCM kullanır
 **Fonksiyonlar**
 
 ```python
