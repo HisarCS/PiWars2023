@@ -112,9 +112,9 @@ while True:
     m.hiz(200,200)
     sleep(3)
     m.solHiz(200)
-	  sleep(5)
-	  m.solHiz(-247)
-	  sleep(5)
+    sleep(5)
+    m.solHiz(-247)
+    sleep(5)
 ```
 
 En başta 2 motoru daha sonrasında sol motoru belirlenen hızda çalıştırır.
