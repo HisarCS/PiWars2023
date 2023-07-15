@@ -43,17 +43,8 @@ veri_okumaya_basla()
 
 ```
 Ayrı bir thread olarak oluşturarak kamera ile veri okumaya başlar.
-```python
 
-_kare_guncelle_()
 
-```
-
-```python
-
-kareyi_oku()
-
-```
 ```python
 
 onizlemeyi_baslat()
@@ -66,11 +57,6 @@ onizlemeyi_durdur()
 
 ```
 Kameranın ön izlemesini durdurur.
-```python
-
-kareyi_goster()
-
-```
 
 ```python
 
