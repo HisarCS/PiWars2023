@@ -41,8 +41,3 @@ class HizlandirilmisPiKamera:
         self.kamera.close()
 
 
-k = HizlandirilmisPiKamera()
-k.veri_okumaya_basla()
-k.onizlemeyi_baslat()
-sleep(15)
-k.kapat()
