@@ -1,5 +1,5 @@
 # PiWars2023
-Bu python kütüphanesi, HisarCS tarafınndan hazırlanan PiWars Türkiye 2023 robot kitlerindeki yazılımı, sensörleri ve hareketli parçaları kullanmalarını kolaylaştırmak amacıyla yapılmıştır.
+Bu python kütüphanesi, PiWars Türkiye 2023 katılımcılarının HisarCS tarafınndan hazırlanan robot kitlerindeki yazılımı, sensörleri ve hareketli parçaları kullanmalarını kolaylaştırmak amacıyla yapılmıştır.
 
 ## Library'yi İndirme
 Github'dan Pi23 library'sini indirmek de mümkün.
@@ -93,6 +93,8 @@ while True:
 	
 
 ```
+Bu kod Picamera'nın preview'ını gösterir ve bu imageları boyutunu küçülterek ekran boyutuna uygun hale getirir.
+
 ## Motor
 **Fonksiyonlar**
 ```python
@@ -200,7 +202,7 @@ while True:
 	sleep(0.05)
 
 ```
-Bu kod servonun sürekli dönmesini sağlar
+Bu kod servonun sürekli dönmesini sağlar.
 
 ## Kumanda
 Servo sınıfı GPIO modu olarak BCM kullanır
@@ -227,3 +229,21 @@ oku()
 ```
 Tüm verileri okur.
 
+**Kumanda Örnek Kullanım**
+```python
+joystik = Kumanda()
+joystik.dinlemeyeBasla()
+
+while True:
+	lx, ly = joystik.sol()
+	rx, ry = joystik.sag()
+	buttons = joystik.butonlar()
+
+	print("Sağ joystik değerleri: ", lx, ly)
+	print("Sol joystik değerleri: ", rx, ry)
+
+	if(1 in buttons):
+		print("1'inci Butona basıldı!")
+
+```
+Bu kod kumanda verilerini okur ve bu verileri console'da print ederek gösterir
