@@ -167,7 +167,7 @@ while True:
 	secilenAci(180)
 	sleep(1)
 ```
-bu kod servonun set edilen iki açı arasında sürekli gidip gelmesini sağlar.
+Bu kod servonun set edilen iki açı arasında sürekli gidip gelmesini sağlar.
 
 **Sürekl Servo Döndürme**
 ```python
@@ -190,4 +190,4 @@ while True:
 	sleep(0.05)
 
 ```
-
+Bu kod servonun sürekli dönmesini sağlar
