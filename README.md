@@ -191,3 +191,29 @@ while True:
 
 ```
 Bu kod servonun sürekli dönmesini sağlar
+
+## Kumanda
+Servo sınıfı GPIO modu olarak BCM kullanır
+
+**Fonksiyonlar**
+```python
+dinlemeyeBasla()
+```
+Kumanda'nın arkada veri dinlemeye başlamasını sağlar.
+```python
+sol()
+```
+Sol joystick verilerini okur.
+```python
+sağ()
+```
+Sağ joystick verilerini okur.
+```python
+butonlar()
+```
+Buton verilerini okur.
+```python
+oku()
+```
+Tüm verileri okur.
+
