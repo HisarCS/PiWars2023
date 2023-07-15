@@ -121,6 +121,7 @@ En başta 2 motoru daha sonrasında sol motoru belirlenen hızda çalıştırır
 
 ## Servo
 Servo sınıfı GPIO modu olarak BCM kullanır
+
 **Fonksiyonlar**
 ```python
 surekliDonme()
