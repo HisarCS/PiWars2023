@@ -36,7 +36,8 @@ while True:
 ```sensor``` nesnesini oluştururken kullandığımız ```Ultrasonik_S(20,21)```, nesenenin ultrasonik sensör olduğunu belirtir ve parantez içindeki kısım (constructor) ise ultrasonik sensörun hangi GPIO numaralı pine takılı olduğununu gösterir. Daha sonrasında ise ```OlcmeyeBasla()``` komutu ile arka planda aktif hale getirdiğimiz sensör ```whlie True``` loopu ile ölçtüğü mesafeyi 0.1 saniye aralıklarla ekrana basar.
 
 
-##HizlandirilmisPiKamera
+## HizlandirilmisPiKamera
+
 **Fonksiyonlar**
 
 ```python
