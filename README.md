@@ -1,6 +1,14 @@
 # PiWars2023
 Bu python kütüphanesi, PiWars Türkiye 2023 katılımcılarının HisarCS tarafınndan hazırlanan robot kitlerindeki yazılımı, sensörleri ve hareketli parçaları kullanmalarını kolaylaştırmak amacıyla yapılmıştır.
 
+##İndirme
+Github'dan Pi23 library'sini indirmek de mümkün.
+```bash git clone https://github.com/HisarCS/Pi20.git
+$ git clone https://github.com/HisarCS/Pi20.git
+$ cd Pi20
+$ sudo python setup.py install
+```
+
 ## Ultrasonik_S
 UltrasonikSensor sınıfı GPIO modu olarak BCM kullanır
 
@@ -79,7 +87,7 @@ from time import sleep
 k = HizlandirilmisPiKamera()
 k.veri_okumaya_basla()
 k.onizlemeyi_baslat()
-k.resize(640, 480)
+k.resize(240, 240)
 while True:
 	k.kareyi_goster()
 	
