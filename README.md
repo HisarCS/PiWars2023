@@ -157,5 +157,37 @@ Tüm aktiviteyi durdurur.
 
 **Açı Değeri Vererek Servo Döndürme**
 ```python
+from time import sleep
+
+servo = Servo()
+servo.secilenAci()
+while True:
+	secilenAci(0)
+	sleep(1)
+	secilenAci(180)
+	sleep(1)
+```
+bu kod servonun set edilen iki açı arasında sürekli gidip gelmesini sağlar.
+
+**Sürekl Servo Döndürme**
+```python
+from time import sleep
+
+servo = Servo()
+servo.surekliDonme()
+
+aci = 0
+ekle = 0
+
+while True:
+	servo.aciAyarla(aci)
+
+	if(aci == 180):
+		ekle = -1
+	elif(aci == 0):
+		ekle = 1
+	aci += ekle
+	sleep(0.05)
 
 ```
+
