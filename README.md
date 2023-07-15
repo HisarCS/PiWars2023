@@ -1,5 +1,5 @@
 # PiWars2023
-Bu python kütüphanesi, PiWars Türkiye 2023 katılımcılarının HisarCS tarafınndan hazırlanan robot kitlerindeki yazılımı, sensörleri ve hareketli parçaları kullanmalarını kolaylaştırmak amacıyla yapılmıştır.
+Bu python kütüphanesi, HisarCS tarafınndan hazırlanan PiWars Türkiye 2023 robot kitlerindeki ultrasonik mesafe sensörü, pololu-drv8835 ve kamera gibi parçaların kullanımlarını kolaylaştırmak amacıyla yapılmıştır.
 
 ## Library'yi İndirme
 Github'dan Pi23 library'sini indirmek de mümkün.
