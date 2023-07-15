@@ -136,6 +136,7 @@ aciAyarla(aci)
 uyu()
 ```
 Tüm aktiviteyi durdurur.
+
 **Örnek Kullanım**
 ```python
 
