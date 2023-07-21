@@ -8,6 +8,10 @@ $ git clone https://github.com/HisarCS/PiWars2023.git
 $ cd Pi23
 $ sudo python setup.py install
 ```
+Burada komutları terminale kopyalayarak Pi23 kütüphanesini kullanmak mümkğn
+git clone kütüphaneyi Raspi 4'ünüze indirirken
+cd Pi23 bu dosyaya erişip içinde dosyaları import etmeniz ve kullanmanızı sağlar
+sudo python setup.py install ise kütüphanenin setup kısmını halleden komuttur
 
 ## Ultrasonik_S
 UltrasonikSensor sınıfı GPIO modu olarak BCM kullanır
