@@ -13,7 +13,7 @@ os.system('sudo apt-get install libjasper-dev')
 
 setup(
     name = "Pi20",
-    version = "0.1.5",
+    version = "0.0.1",
     author = " Emre Dayangac, Poyraz Ozzengi",
     author_email = "emre.dayangac@hisarschool.k12.tr, poyraz.ozzengi@hisarschool.k12.tr",
     description = "Library that makes use of sensors, motors, and servos in the PiWars Turkey robot kit by HisarCS",
