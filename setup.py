@@ -17,7 +17,7 @@ setup(
     author = " Emre Dayangac, Poyraz Ozzengi",
     author_email = "emre.dayangac@hisarschool.k12.tr, poyraz.ozzengi@hisarschool.k12.tr",
     description = "Library that makes use of sensors, motors, and servos in the PiWars Turkey robot kit by HisarCS",
-    packages = ["Pi20"],
+    packages = ["Piwars-2023-Library"],
     classifiers=["Development Status :: 1 - Alpha"],
     install_requires=[
         'picamera',
@@ -25,7 +25,7 @@ setup(
         'RPi.GPIO',
         'wiringpi',
         'numpy',
-        'opencv-contrib-python==3.4.3.18'
+        'opencv-contrib-python==4.5.3.56'
     ]
 
 )
