@@ -14,7 +14,7 @@ cd Pi23 bu dosyaya erişip içinde dosyaları import etmeniz ve kullanmanızı s
 sudo python setup.py install ise kütüphanenin setup kısmını halleden komuttur
 
 ## Ultrasonik_S
-UltrasonikSensor sınıfı GPIO modu olarak BCM kullanır
+Ultrasonik_S sınıfı GPIO modu olarak BCM kullanır
 
 **Fonksiyonlar**
 
