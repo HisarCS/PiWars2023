@@ -250,4 +250,4 @@ while True:
 		print("1'inci Butona basıldı!")
 
 ```
-Bu kod kumanda verilerini okur ve bu verileri console'a print ederek gösterir
+Bu kod kumanda verilerini okur ve bu verileri console'a print fonkisyonun kullanarak gösterir
