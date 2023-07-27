@@ -185,7 +185,7 @@ while True:
 ```
 Bu kod servonun set edilen iki açı arasında sürekli gidip gelmesini sağlar.
 
-**Sürekl Servo Döndürme**
+**Sürekli Servo Döndürme**
 ```python
 from time import sleep
 
@@ -209,13 +209,13 @@ while True:
 Bu kod servonun sürekli dönmesini sağlar.
 
 ## Kumanda
-Servo sınıfı GPIO modu olarak BCM kullanır
+
 
 **Fonksiyonlar**
 ```python
 dinlemeyeBasla()
 ```
-Kumanda'nın arkada veri dinlemeye başlamasını sağlar.
+Kumanda'dan arkada veri almaya başlamasını sağlar.
 ```python
 sol()
 ```
@@ -250,4 +250,4 @@ while True:
 		print("1'inci Butona basıldı!")
 
 ```
-Bu kod kumanda verilerini okur ve bu verileri console'da print ederek gösterir
+Bu kod kumanda verilerini okur ve bu verileri console'a print ederek gösterir
