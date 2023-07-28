@@ -5,7 +5,7 @@ Bu python kütüphanesi, HisarCS tarafınndan hazırlanan PiWars Türkiye 2023 r
 Github'dan Pi23 library'sini indirmek de mümkün.
 ```bash git clone https://github.com/HisarCS/Pi20.git
 $ git clone https://github.com/HisarCS/PiWars2023.git
-$ cd Pi23
+$ cd Piwars-2023-Library
 $ sudo python setup.py install
 ```
 Burada komutları terminale kopyalayarak Pi23 kütüphanesini kullanmak mümkğn
