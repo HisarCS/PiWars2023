@@ -33,7 +33,7 @@ class Motor:
          -480 if hSol < -480 else hSol
         
         motor.motor2.setSpeed(hSol)
- def ktm(self, x, y):
+    def ktm(self, x, y):
         r = math.hypot(x, y)
         t = math.atan2(y, x)
 
